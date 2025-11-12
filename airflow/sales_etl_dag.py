@@ -7,7 +7,7 @@ from etl.main import extract_data, transform_data, load_data
 
 default_args = {
     'owner': 'airflow',
-    'start_date': datetime(2024, 3, 1),
+    'start_date': datetime(2025, 3, 1),
     'schedule_interval': '@daily'
 }
 
